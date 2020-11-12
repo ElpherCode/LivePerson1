@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'liveperson-dev'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_11fe5e2c5d8e43258c86d84ac3f4cd35 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_94fdb9c0c9ad46bf8ae6cc6d0d031451 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
